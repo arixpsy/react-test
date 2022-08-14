@@ -17,8 +17,6 @@ yarn run eslint --init
 
 vitest
 tunnel command
-eslint --fix
-prettier  --write
 husky
 lint-staged
 antd

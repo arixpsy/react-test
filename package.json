@@ -8,7 +8,9 @@
     "dev": "vite",
     "build:qa": "vite build --mode qa",
     "build": "vite build --mode prod",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "eslint:fix": "eslint --fix \"./**/*.{ts,tsx}\"",
+    "pretty": "prettier --write \"./**/*.{ts,tsx}\""
   },
   "devDependencies": {
     "@testing-library/react": "^13.3.0",
