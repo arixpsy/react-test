@@ -10,6 +10,8 @@ const Test = ({ children }: TestProps) => {
 			<p>This is a Test Component</p>
 			{children}
 			<button>Click me</button>
+			{import.meta.env.VITE_TEST}
+			{import.meta.env.VITE_CONFIG_VALUE}
 		</div>
 	)
 }

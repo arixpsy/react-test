@@ -6,8 +6,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build:qa": "vite build --mode qa",
+    "build": "vite build --mode prod",
+    "serve": "vite preview"
   },
   "devDependencies": {
     "@testing-library/react": "^13.3.0",

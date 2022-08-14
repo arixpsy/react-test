@@ -15,8 +15,6 @@ yarn run eslint --init
 4. .prettierrc
 5. vite.config.ts
 
-
-env import
 vitest
 tunnel command
 eslint --fix
