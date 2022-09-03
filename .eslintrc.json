@@ -26,7 +26,9 @@
 	"rules": {
 		"react/react-in-jsx-scope": "off",
 		"prettier/prettier": "error",
-		"import/no-unresolved": "error"
+		"import/named": "error",
+		"import/no-unresolved": "error",
+		"import/no-unused-modules": [1, { "unusedExports": true }]
 	},
 	"settings": {
 		"react": {
